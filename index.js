@@ -12,7 +12,7 @@ const generateScrapeUrl = (apiKey) => `http://api.scraperapi.com?api_key=${apiKe
 app.use(express.json());
 
 app.get('/', (req, res) => {
-    res.send('Hello World!');
+    res.send('amazon api : created by lohith bollineni');
 })
 
 //GET Product Details
